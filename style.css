@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+.transition{
+    transition: 0.2s ease-in-out;
+}
+a{
+    text-decoration: none;
+    color: white;
+    outline: none;
+}
+a:hover{
+    color: white;
+}
+/* ........................nav bar start   */
+.navbar-brand{
+    font-size: 40px;
+    color: #57CC99;
+    font-family: "Playfair Display", serif;
+}
+.navbar-brand span{
+    color: #28ABB9;
+    font-weight: 700;
+}
+.nav-item{
+    width: 185px;
+    text-align: center;
+    margin: 0 4px;
+    padding: 20px 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.nav-item:hover{
+    background-color: #28aab933;
+    border-radius: 6px;
+}
+
+.nav-search{
+    background-color: #ffffff;
+    padding: 4px 12px;
+    border-radius: 6px;
+    height: 38px;
+    border: 0.5px solid #8c8c8c6c;
+    align-items: center;
+
+    margin-right: 10px;
+}
+.nav-search input{
+    background-color: transparent;
+    width: 250px;
+    border: none;
+    outline: none;
+}
+.fa-magnifying-glass{
+    font-size: 16px;
+    padding: 12px 0;
+    color: #606060;
+}
+.btn-circular{
+    width: 120px;
+    padding: 8px;    
+    background-color: #28ABB9;
+    color: white;
+    border: none;
+
+    border-radius: 32px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.section-register .submet-btn:hover,
+.btn-circular:hover,
+.carousel-caption button:hover{
+    background-color: rgb(14, 135, 149);
+}
+h1 , h2{
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: rgb(39, 39, 39); 
+}
+.h2-gradiant{
+    background: -webkit-linear-gradient(#57b98f, #0e8492);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Playfair Display", serif;
+}
+.p-large{
+    width: 34%;
+    font-size: 30px;
+    color: #0e8492;
+}
+.p-small{
+    font-size: 16px;
+    width: 40%;
+    color: #2f805d;
+}
+.d-flex-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* .............................. head start  */
+img{
+    width: 100%;
+    filter: grayscale(25%);
+}
+header h1, header h2{
+    position: absolute;
+    top: 38%;
+    left: 7%;
+}
+header h2{
+    top: 51%;
+    left: 17%;
+}
+.btn-header{
+    position: absolute;
+    top: 72%;
+    left: 22%;
+
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+    border: 1px solid #0e8492;
+    color: #0e8492;
+    background-color: transparent;
+
+    font-size: 18px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.btn-header:hover{
+    background-color: #0e8492;
+    color: white;
+}
+/* .................................... section start  */
+section{
+    margin-top: 50px;
+}
+.bg-opacity{
+    background: url(img/bg-trans.png);
+    width: 100%;
+    height: 119.4%;
+
+
+    position: absolute;
+    top: 140%;
+}
+.section-home-text{
+    position: absolute;
+    top: 140%;
+    padding: 80px;
+}
+.section-home-text h1{
+    left: 80px;
+    top: 35%;
+}
+.section-home-text .btn-circular{
+    margin-top: 15px;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+/* ................................ carousel start  */
+
+.carousel-bg{
+    background: -webkit-linear-gradient(#57b98f, #0e8492);
+    padding: 40px 0;
+}
+.carousel-bg .carousel{
+    width: 60%;
+}
+.carousel-item img{
+    filter: grayscale(40%);
+}
+.carousel-caption{
+    top: 28%;
+}
+.carousel-caption p{
+    font-size: 26px;
+}
+.carousel-caption h2{
+    color: white;
+    margin-top: -25px;
+}
+.carousel-caption button{
+    width: 30%;
+    margin-top: 6px;
+}
+
+/* ................ launches start  */
+.launches{
+    background: url(img/bg-city.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 100vh;
+
+    justify-content: flex-start;
+    padding-top: 80px;
+}
+.launches p{
+    color: #2f805d;
+}
+.launches .p-small{
+    width: 50%;
+    text-align: center;
+    color: #0e8492;
+    margin: 15px 0;
+}
+.launches button{
+    width: 15%;
+}
+/* .............. footer start  */
+footer{
+    padding: 100px 0;
+}
+footer a{
+    margin-bottom: 30px;
+}
+footer .bold-para{
+    font-weight: bold;
+    color: #06454d;
+}
+footer .p-small{
+    text-align: center;
+    width: 33%;
+    font-size: 18px;
+    margin: 25px 0;
+}
+footer .p-large{
+    text-align: center;
+}
+
+footer .icons{
+    width: 17%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 24px;
+}
+footer .icons i{
+    color: #28ABB9;
+}
+footer .icons i:hover{
+    color: #1d828d;
+    
+}
+
+/* ....................................................................... */
+/* Hapenenigs page  */
+.Hapenings-header{
+    padding: 20px 60px;
+    background-color: #f4f4f4da;
+}
+.Hapenings-header h1{
+    position: unset;
+}
+.Happenings-section{
+    margin: 0;
+
+    background: url(img/happenings-page/news.jpg);
+    width: 100%;
+    height: 110vh;
+
+    display: flex;
+    justify-content: end;
+}
+.Happenings-section1{
+    background: url(img/happenings-page/blogs.jpg);
+}
+.Happenings-section2{
+    background: url(img/happenings-page/Priority.jpg);
+
+}
+.Happenings-section .carousel-caption{
+    width: 40%;
+    height: 110vh;
+
+    position: unset;
+
+    background-color: #fafafa85;
+
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+
+    padding: 280px 0;
+}
+.Happenings-section .carousel-caption h2{
+    color: black;
+    font-size: 50px;
+    width: 68%;
+    text-align: left;
+}
+.Happenings-section .carousel-caption p{
+    width: 67%;
+    font-size: 17px;
+    text-align: left;
+
+    margin: 30px 0;
+}
+.Happenings-section .carousel-caption button{
+    width: 37%;
+    padding: 12px 0;
+}
+/* ....................................................................... */
+/* OUR DEVELPOMENT page  */
+.our-development-header{
+    background: none;
+    background-color: #06454d;
+
+    height: 80vh;
+    gap: 20px;
+
+}
+.our-development-header p, 
+.our-development-header h1,
+.our-development-header .p-small{
+    color: white;
+}
+.our-development-header h1{
+    text-align: center;
+    font-size: 50px;
+    width: 75%;
+}
+.our-development-header .p-small{
+    width: 75%;
+}
+.our-develpoment-carousel{
+    width: 100%;
+    padding: 0;
+}
+.our-develpoment-carousel h1{
+    margin-left: 80px;
+    font-size: 50px;
+    padding: 40px 0 20px 0;
+}
+.our-develpoment-carousel .carousel-item .carousel-caption{
+    display: flex;
+    height: 130px;
+    width: 100%;
+    top: 77%;
+    left: 0;
+    padding: 0 60px;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #06454d4b;
+}
+.our-develpoment-carousel .carousel-item .carousel-caption p{
+    font-size: 29px;
+}
+.our-develpoment-carousel .carousel-item .carousel-caption button{
+    width: 110px;
+    padding: 12px 6px;
+    font-size: 16px;
+    margin: 0;
+}
+.our-develpoment-carousel .carousel{
+    width: 80%;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.text .fa-location-dot{
+    margin-right: 6px;
+}
+.our-develpoment-carousel .carousel-item .carousel-caption .text .location-p{
+    font-size: 14px;
+}
+/* ----------------------- CARD START  */
+.our-development-cards{
+    padding: 50px;
+    width: 100%;
+}
+.our-development-cards .card{
+    width: 100%;
+    background-color: transparent;
+
+    border: none;
+    border-bottom: 0.5px solid #0e8492;
+}
+.our-development-cards .card img{
+    width: 100%;
+    height: 350px;
+} 
+.card-title{
+    margin-bottom: 25px;
+}
+.card-title a{
+    text-decoration: none;
+    font-size: 34px;
+    color: #0e8492;
+}
+.card .text .bold-p{
+    color: #06454d;
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+.card .text p{
+    font-size: 18px;
+    color: #06454d;
+    margin-bottom: 30px;
+}
+.card .text .location-p{
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.card .text .location-p i{
+    padding-right: 10px;
+}
+
+.card .text button{
+    position: absolute;
+    bottom: 25px;
+    left: 82%;
+
+    width: 15%;
+    padding: 10px 8px;
+}
+
+/* --------------------------------------------------------  */
+/* REGISTER PAGE START  */
+.header-register{
+    background: url(img/registeration-bg.jpg);
+    width: 100%;
+    height: 100vh;
+
+    margin-top: 70px;
+}
+.header-register h1{
+    margin-top: -75px;
+}
+.section-register{
+    margin-top: 0;
+}
+.section-register form{
+    width: 100%;
+    padding: 100px 150px;
+    background-color: #d3e5e7;
+
+    display: flex;
+    flex-direction: column;
+}
+.section-register form label{
+    display: block;
+    margin: 25px 0 15px;
+    color: #06454d;
+}
+.section-register form label::after{
+    content: ' *';
+    color: #06454d;
+}
+form .check label::after{
+    content: none;
+}
+.section-register form input{
+    width: 100%;
+    padding: 4px 0;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #06454da1;
+
+    outline: none;
+}
+.section-register form select{
+    width: 48.9%;
+    background-color: transparent;
+
+    border: none;
+    border-bottom: 1px solid #06454da1;
+    padding: 8px;
+    font-size: 14px;
+    color: #151515;
+
+    outline: none;
+}
+.section-register form select option{
+    width: 100%;
+}
+form .check{
+    margin: 30px 0 0 0px;
+}
+form .check input{
+    width: 1.5%;
+    margin-right: -6px;
+}
+form .check label{
+    width: 95%;
+    font-size: 14px;
+    height: 1px;
+
+    margin-top: -4px;
+}
+
+.section-register .submet-btn{
+    font-size: 14px;
+    color: white;
+    background-color: #28ABB9;
+    border: none;
+    font-weight: 700;
+
+    width: 130px;
+    height: 46px;
+    position: relative;
+    left: 86%;
+    bottom: -30px;
+}
